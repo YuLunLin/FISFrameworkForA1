@@ -9,20 +9,18 @@
 /* Begin PBXBuildFile section */
 		65FC7FDD15C93AC400E9FB35 /* ZNLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FC7FDB15C93AC400E9FB35 /* ZNLog.h */; };
 		65FC7FDE15C93AC400E9FB35 /* ZNLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC7FDC15C93AC400E9FB35 /* ZNLog.m */; };
-		65FC7FE415CA4BFE00E9FB35 /* IACP_AppSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FC7FE215CA4BFE00E9FB35 /* IACP_AppSupport.h */; };
-		65FC7FE515CA4BFE00E9FB35 /* IACP_MAYFIS.h in Headers */ = {isa = PBXBuildFile; fileRef = 65FC7FE315CA4BFE00E9FB35 /* IACP_MAYFIS.h */; };
-		65FC7FE715CA4C2E00E9FB35 /* IACP_AppSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FC7FE615CA4C2E00E9FB35 /* IACP_AppSupport.m */; };
 		EF38BD3915C9342100FEFFC0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF38BD3815C9342100FEFFC0 /* Cocoa.framework */; };
 		EF38BD4315C9342100FEFFC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF38BD4115C9342100FEFFC0 /* InfoPlist.strings */; };
 		EF38BD4715C9342100FEFFC0 /* FISFrameworkForA1.m in Sources */ = {isa = PBXBuildFile; fileRef = EF38BD4615C9342100FEFFC0 /* FISFrameworkForA1.m */; };
+		EFB5E07815D8C7A700CAF323 /* IACP_AppSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB5E07415D8C7A700CAF323 /* IACP_AppSupport.h */; };
+		EFB5E07915D8C7A700CAF323 /* IACP_AppSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB5E07515D8C7A700CAF323 /* IACP_AppSupport.m */; };
+		EFB5E07A15D8C7A700CAF323 /* IACP_MAYFIS.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB5E07615D8C7A700CAF323 /* IACP_MAYFIS.h */; };
+		EFB5E07B15D8C7A700CAF323 /* IACP_MAYFIS.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB5E07715D8C7A700CAF323 /* IACP_MAYFIS.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		65FC7FDB15C93AC400E9FB35 /* ZNLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZNLog.h; path = ../../../MyUtilities/Cocoa/ZNLog.h; sourceTree = "<group>"; };
 		65FC7FDC15C93AC400E9FB35 /* ZNLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZNLog.m; path = ../../../MyUtilities/Cocoa/ZNLog.m; sourceTree = "<group>"; };
-		65FC7FE215CA4BFE00E9FB35 /* IACP_AppSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IACP_AppSupport.h; path = ../../../MyUtilities/Cocoa/IACP_AppSupport.h; sourceTree = "<group>"; };
-		65FC7FE315CA4BFE00E9FB35 /* IACP_MAYFIS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IACP_MAYFIS.h; path = ../../../MyUtilities/Cocoa/IACP_MAYFIS.h; sourceTree = "<group>"; };
-		65FC7FE615CA4C2E00E9FB35 /* IACP_AppSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IACP_AppSupport.m; path = ../../../MyUtilities/Cocoa/IACP_AppSupport.m; sourceTree = "<group>"; };
 		EF38BD3515C9342100FEFFC0 /* FISFrameworkForA1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FISFrameworkForA1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF38BD3815C9342100FEFFC0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		EF38BD3B15C9342100FEFFC0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -33,6 +31,10 @@
 		EF38BD4415C9342100FEFFC0 /* FISFrameworkForA1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FISFrameworkForA1-Prefix.pch"; sourceTree = "<group>"; };
 		EF38BD4515C9342100FEFFC0 /* FISFrameworkForA1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FISFrameworkForA1.h; sourceTree = "<group>"; };
 		EF38BD4615C9342100FEFFC0 /* FISFrameworkForA1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FISFrameworkForA1.m; sourceTree = "<group>"; };
+		EFB5E07415D8C7A700CAF323 /* IACP_AppSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IACP_AppSupport.h; path = ../../../github/21208443/IACP_MAYFIS/IACP_AppSupport.h; sourceTree = "<group>"; };
+		EFB5E07515D8C7A700CAF323 /* IACP_AppSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IACP_AppSupport.m; path = ../../../github/21208443/IACP_MAYFIS/IACP_AppSupport.m; sourceTree = "<group>"; };
+		EFB5E07615D8C7A700CAF323 /* IACP_MAYFIS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IACP_MAYFIS.h; path = ../../../github/21208443/IACP_MAYFIS/IACP_MAYFIS.h; sourceTree = "<group>"; };
+		EFB5E07715D8C7A700CAF323 /* IACP_MAYFIS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IACP_MAYFIS.m; path = ../../../github/21208443/IACP_MAYFIS/IACP_MAYFIS.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,9 +52,10 @@
 		65FC7FE115CA4BF000E9FB35 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				65FC7FE615CA4C2E00E9FB35 /* IACP_AppSupport.m */,
-				65FC7FE215CA4BFE00E9FB35 /* IACP_AppSupport.h */,
-				65FC7FE315CA4BFE00E9FB35 /* IACP_MAYFIS.h */,
+				EFB5E07415D8C7A700CAF323 /* IACP_AppSupport.h */,
+				EFB5E07515D8C7A700CAF323 /* IACP_AppSupport.m */,
+				EFB5E07615D8C7A700CAF323 /* IACP_MAYFIS.h */,
+				EFB5E07715D8C7A700CAF323 /* IACP_MAYFIS.m */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -132,8 +135,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				65FC7FDD15C93AC400E9FB35 /* ZNLog.h in Headers */,
-				65FC7FE415CA4BFE00E9FB35 /* IACP_AppSupport.h in Headers */,
-				65FC7FE515CA4BFE00E9FB35 /* IACP_MAYFIS.h in Headers */,
+				EFB5E07815D8C7A700CAF323 /* IACP_AppSupport.h in Headers */,
+				EFB5E07A15D8C7A700CAF323 /* IACP_MAYFIS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +222,8 @@
 			files = (
 				EF38BD4715C9342100FEFFC0 /* FISFrameworkForA1.m in Sources */,
 				65FC7FDE15C93AC400E9FB35 /* ZNLog.m in Sources */,
-				65FC7FE715CA4C2E00E9FB35 /* IACP_AppSupport.m in Sources */,
+				EFB5E07915D8C7A700CAF323 /* IACP_AppSupport.m in Sources */,
+				EFB5E07B15D8C7A700CAF323 /* IACP_MAYFIS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
