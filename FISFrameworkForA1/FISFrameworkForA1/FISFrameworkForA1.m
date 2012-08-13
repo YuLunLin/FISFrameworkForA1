@@ -12,6 +12,7 @@
 #import "IACP_AppSupport.h"
 
 #define RETARRAY_RETURNCOUNT_MINVALUE 2
+
 @implementation FISFrameworkForA1
 -(id)init
 {

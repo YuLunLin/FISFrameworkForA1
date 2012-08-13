@@ -16,6 +16,9 @@
 		EFB5E07915D8C7A700CAF323 /* IACP_AppSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB5E07515D8C7A700CAF323 /* IACP_AppSupport.m */; };
 		EFB5E07A15D8C7A700CAF323 /* IACP_MAYFIS.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB5E07615D8C7A700CAF323 /* IACP_MAYFIS.h */; };
 		EFB5E07B15D8C7A700CAF323 /* IACP_MAYFIS.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB5E07715D8C7A700CAF323 /* IACP_MAYFIS.m */; };
+		EFBF70BF15D8F51E00217130 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = EFBF70BD15D8F51E00217130 /* Reachability.h */; };
+		EFBF70C015D8F51E00217130 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = EFBF70BE15D8F51E00217130 /* Reachability.m */; };
+		EFBF70C315D8F6F200217130 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBF70C215D8F6F200217130 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		EFB5E07515D8C7A700CAF323 /* IACP_AppSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IACP_AppSupport.m; path = ../../../github/21208443/IACP_MAYFIS/IACP_AppSupport.m; sourceTree = "<group>"; };
 		EFB5E07615D8C7A700CAF323 /* IACP_MAYFIS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IACP_MAYFIS.h; path = ../../../github/21208443/IACP_MAYFIS/IACP_MAYFIS.h; sourceTree = "<group>"; };
 		EFB5E07715D8C7A700CAF323 /* IACP_MAYFIS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IACP_MAYFIS.m; path = ../../../github/21208443/IACP_MAYFIS/IACP_MAYFIS.m; sourceTree = "<group>"; };
+		EFBF70BD15D8F51E00217130 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../../../References/AppleSampleCodes/Reachability/Reachability.h; sourceTree = "<group>"; };
+		EFBF70BE15D8F51E00217130 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../../../References/AppleSampleCodes/Reachability/Reachability.m; sourceTree = "<group>"; };
+		EFBF70C215D8F6F200217130 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFBF70C315D8F6F200217130 /* SystemConfiguration.framework in Frameworks */,
 				EF38BD3915C9342100FEFFC0 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,6 +89,7 @@
 		EF38BD3715C9342100FEFFC0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EFBF70C215D8F6F200217130 /* SystemConfiguration.framework */,
 				EF38BD3815C9342100FEFFC0 /* Cocoa.framework */,
 				EF38BD3A15C9342100FEFFC0 /* Other Frameworks */,
 			);
@@ -121,6 +129,8 @@
 		EF38BD4D15C9347600FEFFC0 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				EFBF70BD15D8F51E00217130 /* Reachability.h */,
+				EFBF70BE15D8F51E00217130 /* Reachability.m */,
 				65FC7FDB15C93AC400E9FB35 /* ZNLog.h */,
 				65FC7FDC15C93AC400E9FB35 /* ZNLog.m */,
 			);
@@ -137,6 +147,7 @@
 				65FC7FDD15C93AC400E9FB35 /* ZNLog.h in Headers */,
 				EFB5E07815D8C7A700CAF323 /* IACP_AppSupport.h in Headers */,
 				EFB5E07A15D8C7A700CAF323 /* IACP_MAYFIS.h in Headers */,
+				EFBF70BF15D8F51E00217130 /* Reachability.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +235,7 @@
 				65FC7FDE15C93AC400E9FB35 /* ZNLog.m in Sources */,
 				EFB5E07915D8C7A700CAF323 /* IACP_AppSupport.m in Sources */,
 				EFB5E07B15D8C7A700CAF323 /* IACP_MAYFIS.m in Sources */,
+				EFBF70C015D8F51E00217130 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,7 +257,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
@@ -272,7 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
@@ -301,6 +313,7 @@
 				GCC_PREFIX_HEADER = "FISFrameworkForA1/FISFrameworkForA1-Prefix.pch";
 				INFOPLIST_FILE = "FISFrameworkForA1/FISFrameworkForA1-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
@@ -318,6 +331,7 @@
 				GCC_PREFIX_HEADER = "FISFrameworkForA1/FISFrameworkForA1-Prefix.pch";
 				INFOPLIST_FILE = "FISFrameworkForA1/FISFrameworkForA1-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
