@@ -7,6 +7,7 @@
 //
 
 #import "FISFrameworkForA1.h"
+#import "Reachability.h"
 
 #import "IACP_MAYFIS.h"
 #import "IACP_AppSupport.h"
@@ -19,7 +20,37 @@
 	self = [super init];
 	if(!self)
 		return nil;
+    
 	return self;
+}
+
+- (void) starMonitor
+{
+    
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(reachabilityChanged:)
+                                                 name:kReachabilityChangedNotification
+                                               object:nil];
+    
+    
+    Reachability * reach = [Reachability reachabilityWithHostName:@"www.google.com"];
+    
+    reach.reachableBlock = ^(Reachability * reachability)
+    {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            //_blockLabel.stringValue = @"Block Says Host Reachable";
+        });
+    };
+    
+    reach.unreachableBlock = ^(Reachability * reachability)
+    {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            //_blockLabel.stringValue = @"Block Says Host Unreachable";
+        });
+    };
+    
+    [reach startNotifier];
 }
 
 -(void)dealloc
