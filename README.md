@@ -11,8 +11,9 @@ Initialized
 
 Mac OS X 10.6 and above version (10.8 tested)
 
-File ZNLog from github/MyUtilities or you can fetch somewhere.
-
+Class ZNLog from github/MyUtilities or you can fetch somewhere.
+Class Reachability (version 2.3 or above) from https://github.com/othercat/AppleSampleCodes.
+ 
 ## Build+Install
 
 Just fetch the code via git clone github.com:21208443/FISFrameworkForA1
